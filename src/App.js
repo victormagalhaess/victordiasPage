@@ -1,11 +1,9 @@
 import './styles.scss';
-import Header from 'Shared/Header/Header'
-import Body from './Pages/Home/Components/Body/Body'
+import Home from 'pages/Home'
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body/>
+      <Home/>
     </div>
   );
 }

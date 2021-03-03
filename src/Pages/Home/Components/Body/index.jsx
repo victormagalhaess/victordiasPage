@@ -11,15 +11,30 @@ const Body = () => {
                     Victor Magalhães <br/>
                 </span> 
                 I&apos;m a&nbsp;
-                <a href="https://www.linkedin.com/school/ufmg/" className={styles.profileLink}>
+                <a 
+                  href="https://www.linkedin.com/school/ufmg/" 
+                  rel="noreferrer" 
+                  target="_blank" 
+                  className={styles.profileLink}
+                >
                     student
                 </a>
                 ,<br/>
-                <a href="https://open.spotify.com/user/9z6aoedgonrcs7iivryx304hw" className={styles.profileLink}>
+                <a 
+                  href="https://open.spotify.com/user/9z6aoedgonrcs7iivryx304hw" 
+                  rel="noreferrer" 
+                  target="_blank" 
+                  className={styles.profileLink}
+                >
                     music enjoyer&nbsp;
                 </a>
                 and <br/>
-                <a href="https://github.com/victormagalhaess" className={styles.profileLink}>   
+                <a 
+                  href="https://github.com/victormagalhaess" 
+                  rel="noreferrer" 
+                  target="_blank" 
+                  className={styles.profileLink}
+                  >   
                     fullstack developer
                 </a>
                 .&nbsp;
