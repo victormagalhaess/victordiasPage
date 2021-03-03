@@ -1,9 +1,15 @@
+import React from 'react';
+import Header from 'shared/Header/'
+import Body from './pages/Home/Components/Body/'
+import Footer from './pages/Home/Components/Footer/'
 import './styles.scss';
-import Home from './pages/Home/index'
+
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Header/>
+      <Body/>
+      <Footer/>
     </div>
   );
 }
