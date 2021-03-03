@@ -1,0 +1,33 @@
+.body {
+  margin-top: 5%;
+  width: 50%;
+  padding-left: 5%;
+
+  .normalText {
+    font-weight: normal;
+    color: white;
+    font-size: 34px;
+  }
+
+  .boldText {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+  }
+
+  .profileLink {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-decoration-color: #da4201;
+  }
+
+  .profileLink:hover {
+    text-decoration: none;
+  }
+
+  .underscored:hover {
+    text-decoration: none;
+  }
+}
