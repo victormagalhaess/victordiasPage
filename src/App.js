@@ -1,5 +1,5 @@
 import './styles.scss';
-import Home from './pages/Home'
+import Home from './pages/Home/index'
 function App() {
   return (
     <div className="App">
