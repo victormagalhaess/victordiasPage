@@ -1,5 +1,5 @@
 import React from 'react'
-import Moon from 'Assets/images/moon.png'
+import Moon from '../../Assets/images/moon.png'
 import styles from './styles.module.scss'
 
 const Header = () => {
