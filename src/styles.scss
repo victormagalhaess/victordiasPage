@@ -25,3 +25,26 @@ html {
   margin: 0;
   height: 100%;
 }
+
+.Typist .Cursor {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
