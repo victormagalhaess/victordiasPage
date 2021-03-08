@@ -1,20 +1,26 @@
-import React from 'react'
-import Moon from 'assets/images/moon.png'
-import styles from './styles.module.scss'
+import React from 'react';
+import Moon from 'assets/images/moon.png';
+import styles from './styles.module.scss';
 
 const Header = () => {
-    return(
+  return (
     <header className={styles.header}>
-        <div className={styles.leftContent}>
-            <a href="/" className={styles.pageLink}>VICTOR MAGALHÃES</a>
-        </div>
-        <img alt="white full moon" src={Moon} className={styles.moonPicture}/>
-        <div className={styles.rightContent}>
-            <a className={styles.pageLink} href="/">ABOUT</a>
-            <a className={styles.pageLink} href="/">CONTACT</a>
-        </div>
+      <div className={styles.leftContent}>
+        <a href="/" className={styles.pageLink}>
+          VICTOR MAGALHÃES
+        </a>
+      </div>
+      <img alt="white full moon" src={Moon} className={styles.moonPicture} />
+      <div className={styles.rightContent}>
+        <a className={styles.pageLink} href="/">
+          ABOUT
+        </a>
+        <a className={styles.pageLink} href="/contact">
+          CONTACT
+        </a>
+      </div>
     </header>
-    )
-}
+  );
+};
 
 export default Header;
