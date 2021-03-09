@@ -10,9 +10,11 @@ const Header = () => {
           VICTOR MAGALHÃES
         </a>
       </div>
-      <img alt="white full moon" src={Moon} className={styles.moonPicture} />
+      <a href="/">
+        <img alt="white full moon" src={Moon} className={styles.moonPicture} />
+      </a>
       <div className={styles.rightContent}>
-        <a className={styles.pageLink} href="/">
+        <a className={styles.pageLink} href="/about">
           ABOUT
         </a>
         <a className={styles.pageLink} href="/contact">
