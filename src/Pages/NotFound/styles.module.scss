@@ -1,0 +1,67 @@
+.notFoundContainer {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #da4201;
+    text-decoration-thickness: 0.15em;
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 24px;
+    }
+  }
+}
+
+.errorTitle {
+  margin: 0 auto 1.875rem;
+  color: white;
+  font-size: 104px;
+  line-height: 0.8;
+
+  @media (min-width: 768px) {
+    font-size: 160px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 200px;
+  }
+}
+
+.errorDescription {
+  color: white;
+  font-size: 24px;
+  margin: 0 auto 8px;
+  line-height: 1.2;
+
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 40px;
+  }
+}
+
+.errorText {
+  color: white;
+  line-height: 1.5;
+  margin: 0 auto 1.125rem;
+  font-size: 12px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
