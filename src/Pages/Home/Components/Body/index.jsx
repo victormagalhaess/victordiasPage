@@ -19,7 +19,7 @@ const Body = () => {
           Hello! <br />
           My name is <br />
           <span className={styles.boldText}>
-            Victor Magalhães <br />
+            Victor Magalhães. <br />
           </span>
           I&apos;m a&nbsp;
           <a

@@ -1,11 +1,11 @@
 .socialMediaIcon {
-  width: 3.5vh;
-  height: 3.5vh;
+  width: 32px;
+  height: 32px;
   filter: opacity(0.5) drop-shadow(0 0 0 #384951);
   margin-left: 0.5vw;
-  @media (max-width: 1000px) {
-    width: 5vh;
-    height: 5vh;
+  @media (max-width: 720px) {
+    width: 24px;
+    height: 24px;
     margin-left: 1vw;
   }
 }

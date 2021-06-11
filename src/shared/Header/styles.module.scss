@@ -21,7 +21,8 @@
   }
 
   .pageLink {
-    padding-right: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 2.5rem;
     white-space: nowrap;
 
@@ -31,11 +32,17 @@
   }
 
   .leftContent {
-    padding-left: 40px;
+    margin-left: 40px;
+    @media (max-width: 900px) {
+      margin-left: 20px;
+    }
   }
 
   .rightContent {
-    padding-right: 60px;
+    margin-right: 60px;
+    @media (max-width: 900px) {
+      margin-right: 20px;
+    }
   }
 
   .leftContent,
