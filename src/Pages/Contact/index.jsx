@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from 'shared/Header';
+import Footer from 'shared/Footer';
 import styles from './styles.module.scss';
 import clockImg from 'assets/images/clock.png';
 
@@ -55,6 +56,7 @@ const Contact = () => {
         </div>
         <img src={clockImg} alt="persona 3 clock" className={styles.image} />
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from 'shared/Header';
+import Footer from 'shared/Footer';
 import Body from './Components/Body';
-import Footer from './Components/Footer';
 
 const Home = () => {
   return (
