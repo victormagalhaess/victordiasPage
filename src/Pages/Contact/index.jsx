@@ -52,6 +52,11 @@ const Contact = () => {
                 <span className={styles.contactLink}>Leaving a comment on my guestbook</span>
               </a>
             </li>
+            <li>
+              <a href="https://blog.victordias.dev" target="_blank" rel="noreferrer">
+                <span className={styles.contactLink}>Leaving a comment on my blog</span>
+              </a>
+            </li>
           </ul>
         </div>
         <img src={clockImg} alt="persona 3 clock" className={styles.image} />
