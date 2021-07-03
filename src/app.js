@@ -1,10 +1,10 @@
 import React from 'react';
 import Routes from 'routes';
-import styles from './styles.scss';
+import './styles.scss';
 
 function App() {
   return (
-   <Routes styles={styles}/>
+   <Routes/>
   );
 }
 
