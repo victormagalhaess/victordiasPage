@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from 'Pages/Home';
-import Contact from 'Pages/Contact';
-import About from 'Pages/About';
-import NotFound from 'Pages/NotFound';
-import './styles.scss';
+import Home from 'pages/home';
+import Contact from 'pages/contact';
+import About from 'pages/about';
+import NotFound from 'pages/notFound';
 
-function App() {
+function Routes() {
   return (
     <BrowserRouter>
       <Switch>
@@ -27,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Routes;

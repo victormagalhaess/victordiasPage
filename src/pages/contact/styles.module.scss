@@ -49,6 +49,7 @@ li {
   top: calc(100% - 22vw);
   overflow: hidden;
   animation: pulse 5s infinite;
+  user-select: none;
 
   @media (max-width: 900px) {
     filter: opacity(0);

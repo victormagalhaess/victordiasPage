@@ -1,5 +1,6 @@
 .profilePic {
   height: 200px;
+  user-select: none;
   border-radius: 100px;
   margin-bottom: 2%;
   @media (max-height: 900px) {
