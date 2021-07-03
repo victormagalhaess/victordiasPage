@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialMediaLink from '../SocialMediaLink';
+import SocialMediaLink from '../socialMediaLink';
 import githubLogo from 'assets/images/github.png';
 import linkedinLogo from 'assets/images/linkedin.png';
 import mailLogo from 'assets/images/mail.png';

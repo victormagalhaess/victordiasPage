@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from 'shared/Header';
+import Header from 'shared/header';
 import styles from './styles.module.scss';
 
 const NotFound = () => {

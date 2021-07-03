@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from 'shared/Header';
-import Footer from 'shared/Footer';
+import Header from 'shared/header';
+import Footer from 'shared/footer';
 import { getBirthday } from 'utils';
 
 import profilePic from 'assets/images/profile.png';
