@@ -6,6 +6,7 @@
   .moonPicture {
     animation: rotation 30s infinite linear;
     height: 8rem;
+    user-select: none;
     @media (max-width: 700px) {
       height: 5rem;
     }
